@@ -1,0 +1,45 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+/* regole contenitore generale */
+#container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+/* header stile */
+h1 {
+    color: rgb(255, 36, 156);
+}
+
+
+
+/* prova sulla section con riga e colonna */
+section {
+    background-color: blueviolet;
+   
+    
+}
+
+.row {
+    border: solid 4px black;
+    
+}
+
+.col {
+    border: 2px solid red;
+    height: 250px;
+    background-color: rgb(0, 255, 128);
+    
+}
