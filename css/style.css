@@ -8,7 +8,7 @@
 body {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    line-height: 20px;
 }
 
 .row::after {
@@ -17,17 +17,24 @@ body {
     clear: both;
 }
 
+/* regole stile section con float */
 .col {
     float: left;
-    width: calc((100%/3) - 10px);
-    margin: 2px 5px;
+    width: calc((100%/3) - 40px);
+    margin: 0 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 55);
 }
 
 
 /* regole contenitore generale */
 #container {
     margin: 50px auto;
-    width: 80%;
+    width: 70%;
+}
+
+.align {
+    text-align: center;
 }
 
 
@@ -38,27 +45,38 @@ h1 {
 }
 
 
-
-/* regole stile section con float */
-section {
-    margin-top: 20px;    
+/* regole contenuto principale */
+.spazio-top {
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
-
-/* prova sulla section con riga e colonna */
-.row {
-    border: solid 2px black;
-}
-
-.col {
-    border: 2px solid red;
-    background-color: rgb(0, 255, 128);
-    padding: 20px;
-    
-    
-}
 
 .modifica-posizionamento {
     width: 80px;
     float: left;
+    margin-right: 20px;
+}
+
+
+
+/* stile scritte all'interno dei quadranti */
+
+.name {
+    font-size: 20px;
+    color: white;
+}
+
+.profession {
+    color: white;
+    font-size: 14px;
+}
+
+.email {
+    color: rgb(0, 132, 255);
+    font-size: 12px;
+}
+
+.distanziamento {
+    line-height: 25px;
 }
