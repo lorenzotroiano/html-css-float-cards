@@ -24,7 +24,12 @@ body {
     margin: 0 20px;
     margin-top: 20px;
     background-color: rgb(0, 0, 55);
+
+    box-shadow: 2px 2px 2px 2px rgb(128, 128, 128, 0.4);
 }
+
+
+
 
 
 /* regole contenitore generale */
@@ -42,6 +47,7 @@ body {
 /* header stile */
 h1 {
     color: rgb(255, 36, 156);
+    font-family: 'Fredoka', sans-serif;
 }
 
 
