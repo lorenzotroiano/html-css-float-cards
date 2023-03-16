@@ -19,7 +19,8 @@ body {
 
 .col {
     float: left;
-    width: calc(100%/3);
+    width: calc((100%/3) - 10px);
+    margin: 2px 5px;
 }
 
 
@@ -47,12 +48,17 @@ section {
 /* prova sulla section con riga e colonna */
 .row {
     border: solid 2px black;
-    
 }
 
 .col {
     border: 2px solid red;
-    height: 200px;
     background-color: rgb(0, 255, 128);
+    padding: 20px;
     
+    
+}
+
+.modifica-posizionamento {
+    width: 80px;
+    float: left;
 }
